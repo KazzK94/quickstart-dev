@@ -30,7 +30,7 @@ function FrameworkTab({ framework }: { framework: Framework }) {
 		<TabsTrigger
 			key={framework.name}
 			value={framework.name.toLowerCase()}
-			className='text-gray-900 data-[state=active]:text-black data-[state=active]:bg-gray-200'>
+			className='text-gray-900 data-[state=active]:text-black data-[state=active]:bg-gray-50'>
 			<span className="flex items-center gap-2">
 				<Code className="size-4" />
 				{framework.name}
