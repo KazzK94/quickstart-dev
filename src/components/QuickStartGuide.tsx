@@ -13,7 +13,7 @@ import { Framework } from '@/types'
 export function QuickStartGuide() {
 	return (
 		<Tabs defaultValue={frameworks[0].name.toLowerCase()} className="w-full">
-			<TabsList className="grid w-full grid-cols-2 gap-1 bg-white/40">
+			<TabsList className="grid w-full grid-cols-3 gap-1 bg-white/40">
 				{frameworks.map((framework) => (
 					<FrameworkTab key={framework.name} framework={framework} />
 				))}
